@@ -154,7 +154,7 @@ new MenuItemInfo("по Аудиториям", "la la-file", ByClassView.class), 
 
 //new MenuItemInfo("Enter", "la la-file", EnterView.class), //
 
-new MenuItemInfo("Admin", "la la-file", AdminView.class), //
+new MenuItemInfo("Составить расписание", "la la-file", AdminView.class), //
 
         };
         List<RouterLink> links = new ArrayList<>();
