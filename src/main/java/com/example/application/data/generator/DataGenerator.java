@@ -2,20 +2,16 @@ package com.example.application.data.generator;
 
 import com.vaadin.flow.spring.annotation.SpringComponent;
 
-import com.example.application.data.service.UserRepository;
+import com.example.application.data.repository.UserRepository;
 import com.example.application.data.entity.User;
 import java.util.Collections;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import com.example.application.data.Role;
 
-import java.time.LocalDateTime;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
-import com.vaadin.exampledata.DataType;
-import com.vaadin.exampledata.ExampleDataGenerator;
 
 @SpringComponent
 public class DataGenerator {

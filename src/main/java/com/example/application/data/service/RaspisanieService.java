@@ -1,19 +1,13 @@
 package com.example.application.data.service;
 
-import com.example.application.data.entity.Raspisanie;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+//@Service
+//public class RaspisanieService {
+//
+//    @Autowired
+//    private RaspisanieRepository raspisanieRepository;
 
-import java.util.List;
+//    public List<RaspisanieEntity> findAll() {
+//        return raspisanieRepository.findAll();
+//    }
 
-@Service
-public class RaspisanieService {
-
-    @Autowired
-    private RaspisanieRepository raspisanieRepository;
-
-    public List<Raspisanie> findAll() {
-        return raspisanieRepository.findAll();
-    }
-
-}
+//}

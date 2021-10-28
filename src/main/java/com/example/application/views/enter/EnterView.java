@@ -9,7 +9,7 @@ import com.vaadin.flow.router.PageTitle;
 import com.example.application.views.MainLayout;
 import com.vaadin.flow.server.auth.AnonymousAllowed;
 
-@PageTitle("Enter")
+@PageTitle("О программе")
 @Route(value = "authentication", layout = MainLayout.class)
 @AnonymousAllowed
 public class EnterView extends VerticalLayout {
@@ -17,12 +17,12 @@ public class EnterView extends VerticalLayout {
     public EnterView() {
         setSpacing(false);
 
-        Image img = new Image("images/empty-plant.png", "placeholder plant");
+        Image img = new Image("images/hg.png", "placeholder plant");
         img.setWidth("200px");
         add(img);
 
-        add(new H2("This place intentionally left empty"));
-        add(new Paragraph("It’s a place where you can grow your own UI 🤗"));
+        add(new H2("Решение команды \"Мэкхэнд\""));
+        add(new Paragraph("Приложение \"Расписание\" Версия: альфа"));
 
         setSizeFull();
         setJustifyContentMode(JustifyContentMode.CENTER);

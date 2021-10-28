@@ -142,6 +142,8 @@ public MainLayout(AuthenticatedUser authenticatedUser, AccessAnnotationChecker a
         MenuItemInfo[] menuItems = new MenuItemInfo[] { //
 //                new MenuItemInfo("", "la la-file", View.class), //
 
+new MenuItemInfo("О программе", "la la-file", EnterView.class), //
+
 new MenuItemInfo("по Дате", "la la-file", ByDateView.class), //
 
 new MenuItemInfo("по Преподавателям", "la la-file", ByTeachersView.class), //
@@ -151,8 +153,6 @@ new MenuItemInfo("по Предметам", "la la-file", ByDisciplineView.class
 new MenuItemInfo("по Учебным группам", "la la-file", ByStudentGroupView.class), //
 
 new MenuItemInfo("по Аудиториям", "la la-file", ByClassView.class), //
-
-//new MenuItemInfo("Enter", "la la-file", EnterView.class), //
 
 new MenuItemInfo("Составить расписание", "la la-file", AdminView.class), //
 
